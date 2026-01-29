@@ -11,7 +11,10 @@ categories: javascript
 <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.7/kakao.min.js" integrity="sha384-tJkjbtDbvoxO+diRuDtwRO9JXR7pjWnfjfRn5ePUpl7e7RJCxKCwwnfqUAdXh53p" crossorigin="anonymous"></script>
 
 <script>
+console.log('Kakao SDK initialized:', Kakao.isInitialized());
+if (!Kakao.isInitialized()) {
   Kakao.init('0f89c9f62c6d24955c061f6bb295212e');  // 사용하려는 앱의 JavaScript 키 입력
+}
 </script>
 
 <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()">
@@ -43,15 +46,15 @@ categories: javascript
         {
           title: '웹으로 보기',
           link: {
-            mobileWebUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
-            webUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
+            mobileWebUrl: 'https://kimluffy.github.io',
+            webUrl: 'https://kimluffy.github.io',
           },
         },
         {
           title: '앱으로 보기',
           link: {
-            mobileWebUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
-            webUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
+            mobileWebUrl: 'https://kimluffy.github.io',
+            webUrl: 'https://kimluffy.github.io',
           },
         },
       ],
