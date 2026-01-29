@@ -43,15 +43,15 @@ categories: javascript
         {
           title: '웹으로 보기',
           link: {
-            mobileWebUrl: 'https://kimluffy.github.io',
-            webUrl: 'https://kimluffy.github.io',
+            mobileWebUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
+            webUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
           },
         },
         {
           title: '앱으로 보기',
           link: {
-            mobileWebUrl: 'https://kimluffy.github.io',
-            webUrl: 'https://kimluffy.github.io',
+            mobileWebUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
+            webUrl: 'https://kimluffy.github.io/javascript/2026/01/29/share-kakao.html',
           },
         },
       ],
