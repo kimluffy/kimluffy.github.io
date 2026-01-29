@@ -11,10 +11,11 @@ categories: javascript
 <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.7/kakao.min.js" integrity="sha384-tJkjbtDbvoxO+diRuDtwRO9JXR7pjWnfjfRn5ePUpl7e7RJCxKCwwnfqUAdXh53p" crossorigin="anonymous"></script>
 
 <script>
-console.log('Kakao SDK initialized:', Kakao.isInitialized());
+
 if (!Kakao.isInitialized()) {
   Kakao.init('0f89c9f62c6d24955c061f6bb295212e');  // 사용하려는 앱의 JavaScript 키 입력
 }
+console.log('Kakao SDK initialized:', Kakao.isInitialized());
 </script>
 
 <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()">
