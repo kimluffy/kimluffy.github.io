@@ -11,8 +11,8 @@ categories: javascript
 <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.7/kakao.min.js" integrity="sha384-tJkjbtDbvoxO+diRuDtwRO9JXR7pjWnfjfRn5ePUpl7e7RJCxKCwwnfqUAdXh53p" crossorigin="anonymous"></script>
 
 <script>
-
 if (!Kakao.isInitialized()) {
+  console.log('Kakao.init');
   Kakao.init('0f89c9f62c6d24955c061f6bb295212e');  // 사용하려는 앱의 JavaScript 키 입력
 }
 console.log('Kakao SDK initialized:', Kakao.isInitialized());
